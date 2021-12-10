@@ -16,7 +16,7 @@ The image below shows the result of FFT 2D, one axis shows the vehicle velocity 
 
 ## Constant False Alarm Rate
 
-To deal with the noise, one can use Constant False Alarm Rate (CFAR) technique. One of the method is `Cell Averaging`.
+To deal with the noise, one can use Constant False Alarm Rate (CFAR) technique.
 
 To implement it, we need to do these following steps:
 
