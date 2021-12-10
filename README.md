@@ -53,5 +53,7 @@ For the training cells, I selected `Tr=10` (Training range) and `Td=8` (Training
 
 ### Steps taken to suppress the non-thresholded cells at the edges
 To suppress the non thresholded cells at the edges, we can select those cells and set it to 0
+```
 RDM(union(1:(Tr+Gr),end-(Tr+Gr-1):end),:) = 0; % Rows
 RDM(:,union(1:(Td+Gd),end-(Td+Gd-1):end)) = 0; % Columns
+```
